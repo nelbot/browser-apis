@@ -1,0 +1,36 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.murray {
+  background-image: url("http://img3.wikia.nocookie.net/__cb20081013140955/ghostbusters/images/1/11/Bill_Murray.jpeg");
+  background-repeat: repeat;
+}
+
+.busey {
+  background-image: url("http://cdn.playbuzz.com/cdn/0e0dff8a-242a-4c11-a056-b7efb376d46d/5e109501-b121-4d30-b81d-3272ea689cac.jpg");
+  background-repeat: repeat;
+  background-size: 500px;
+}
+
+.chunk {
+  background-image: url("http://i.huffpost.com/gen/573105/thumbs/o-GOONIES-570.jpg?4");
+  background-repeat: repeat;
+}
+
+.peter {
+  background-image: url("https://media.licdn.com/media/p/2/000/190/15e/29f2047.jpg");
+  background-repeat: repeat;
+}
