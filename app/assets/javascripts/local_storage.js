@@ -28,17 +28,17 @@
 
 // };
 
-var dude = localStorage.getItem('key');
-$('body').addClass(dude);
+// var dude = localStorage.getItem('key');
+// $('body').addClass(dude);
 
-function change () {
-    var val = $('.js-dropdown').val();
-    console.debug('Changed to', val);
-    $('body').removeClass('chunk murray busey peter');
-    $('body').addClass(val);
-    localStorage.setItem('key', val);
+// function change () {
+//     var val = $('.js-dropdown').val();
+//     console.debug('Changed to', val);
+//     $('body').removeClass('chunk murray busey peter');
+//     $('body').addClass(val);
+//     localStorage.setItem('key', val);
 
-}
+// }
 
-$('.js-dropdown').on('change', change);
+// $('.js-dropdown').on('change', change);
 
