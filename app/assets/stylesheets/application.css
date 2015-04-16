@@ -34,3 +34,7 @@
   background-image: url("https://media.licdn.com/media/p/2/000/190/15e/29f2047.jpg");
   background-repeat: repeat;
 }
+
+.js-returned-albums h2 {
+  text-align: center;
+}
