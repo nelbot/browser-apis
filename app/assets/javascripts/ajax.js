@@ -3,7 +3,7 @@
 //   var newCharacter = {
 //     name: $('.name').val(),
 //     weapon: $('.weapon').val(),
-//     occupation: $('.occupation').val()
+//     occupation: $('.occupation').val() 
 //   };
 
 //   // Make a POST request to the API with the info

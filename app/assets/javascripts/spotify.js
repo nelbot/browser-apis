@@ -17,8 +17,8 @@ function fetchArtists (event) {
       imageSrc = 'http://www.sickchirpse.com/wp-content/uploads/2013/02/sloth.jpg';
     }
 
-    $('.js-returned-artists').append('<h2 style="text-align:center;">' + response.artists.items[0].name + '</h2>' + '<img src=" ' + imageSrc + '"/>' + '<h2 style="text-align:center;">Would you like to see this artists albums?</h2>' +
-      '<button class="btn btn-primary center-block js-find-albums" type="button" data-artist' + "=" + artist_id +' >Hell Ya!</button>');
+    $('.js-returned-artists').append('<h2>' + response.artists.items[0].name + '</h2>' + '<img src=" ' + imageSrc + '"/>' + '<h3 style="text-align:center;">Would you like to see this artists albums?</h3>' +
+      '<button class="btn btn-primary center-block js-find-albums" type="button" data-artist' + "=" + artist_id +' >Hellz Ya!</button>');
     
     $('.js-find-albums').on('click', fetchAlbums);
 
@@ -50,7 +50,7 @@ function fetchAlbums (event) {
       imageSrc = 'http://www.sickchirpse.com/wp-content/uploads/2013/02/sloth.jpg';
     }
 
-  $('.js-returned-albums').append('<h2 style="text-align:center;">' + response.items[0].name + '</h2>' + '<img src=" ' + imageSrc + '"/>');
+  $('.js-returned-albums').append('<h2>' + response.items[0].name + '</h2>' + '<img src=" ' + imageSrc + '"/>');
   }
 
   function handleError (err1, err2, err3) {

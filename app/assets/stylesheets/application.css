@@ -35,6 +35,28 @@
   background-repeat: repeat;
 }
 
+.search-bar {
+  
+}
+
+.js-returned-artists h2 {
+  text-align: center;
+}
+
+.js-returned-artists img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+
 .js-returned-albums h2 {
   text-align: center;
+}
+
+.js-returned-albums img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
 }
